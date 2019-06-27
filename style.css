@@ -1,0 +1,400 @@
+/* green - #009b97 */
+.bg-maroon {
+    background-color: #5b2127;
+}
+
+.text-maroon {
+    color: #5b2127;
+}
+
+.text-black {
+    color: #000;
+}
+
+.btn-maroon {
+    background-color: #5b2127;
+}
+
+.btn-maroon:hover {
+    background-color: #381418;
+}
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+.row1 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row2 {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.row3 {
+    max-width:1440px;
+    margin: 0 auto;
+}
+
+.carousel-row {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+.non-cap {
+    text-transform: none;
+}
+
+/* ----- HEADINGS ----- */
+h2,
+h3,
+h4,
+h5
+a {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: capitalize; 
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.text-line-maroon:after {
+    display: block;
+    height: 2px;
+    background-color: #5b2127;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.text-line-white:after {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* ----- DOTS ----- */
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #5b2127;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dotdark {
+    height: 15px;
+    width: 15px;
+    background-color: #373c48;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+/* ----- PARAGRAPHS ----- */
+.long-copy {
+    line-height: 145%;
+    width: 90%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+
+/* ----- ICONS ----- */
+.icon-big {
+    font-size: 350%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: #5b2127;
+}
+
+
+.blockH h3:hover {
+    color: #5b2127;
+}
+
+
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+/* ----- LINKS ----- */
+
+
+.link-hov {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-hov:hover {
+    color: #5b2127;
+    text-decoration: none;
+}
+
+.footlink:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #5b2127;
+}
+
+.white-link-hov {
+    color: #5b2127;
+    text-decoration: none;
+}
+
+.white-link-hov:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* ----------------------------------------------- */
+/* Navbar*/
+/* ----------------------------------------------- */
+
+.nav-link1 {
+    border-bottom: 0px;
+}
+
+.nav-link1:hover {
+    color: #5b2127;
+    border-bottom: 3px solid #5b2127;
+    padding-top: 5px;
+}
+
+nav {
+    background: rgb(91,33,39);
+    background: linear-gradient(120deg, rgba(91,33,39,1) 44%, rgba(248, 249, 250, 1) 44.5%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        background: rgb(91,33,39);
+        background: linear-gradient(120deg, rgba(91,33,39,1) 60%, rgba(248, 249, 250, 1) 60.5%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .nav-link {
+        color: white !important;
+        margin-left: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    nav {
+        background: rgb(91,33,39);
+        background: linear-gradient(120deg, rgba(91,33,39,1) 100%, rgba(248, 249, 250, 1) 0%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .nav-link {
+        color: white !important;
+        margin-left: 15px;
+    }
+
+    .navbar-toggler {
+        color: white !important;
+    }
+
+    .navbar-brand {
+        font-size: 90%;
+        margin-left: 25px !important;
+    }
+
+    .jumbotron h1{
+        font-size: 125%;
+    }
+  }
+
+/* ----------------------------------------------- */
+/* Footer*/
+/* ----------------------------------------------- */
+
+footer {
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.4), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.4), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ----------------------------------------------- */
+/* HEADER*/
+/* ----------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),url(IMG/sunset-houses.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header1 {
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+    background-color: #262626;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG/house-red.jfif);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG/house-red.jfif);
+    background-position: center;
+}
+
+.hero-text {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+  }
+
+.underline1 {
+    border-bottom: 2px solid #5b2127;
+}
+
+.bg-pic
+ {
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #262626;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG/neighborhood.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG/neighborhood.jpg);
+    background-position: center;
+}
+
+.bg-trans {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.about-who {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ----------------------------------------------- */
+/* Services*/
+/* ----------------------------------------------- */
+
+.services {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5b2127;
+}
+
+.service-box {
+    -webkit-box-shadow: 6px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.service-box-pic {
+    -webkit-box-shadow: 6px 0.5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 0.5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 0.5px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* ----------------------------------------------- */
+/* Pictures*/
+/* ----------------------------------------------- */
+
+.carousel-img {
+    width: 100%;
+    max-height: 800px;
+}
+
+/* ----------------------------------------------- */
+/* Hover Effects*/
+/* ----------------------------------------------- */
+
+.hover-pic {
+    transition: transform .5s;
+}
+
+.hover-pic:hover {
+    transform: scale(1.25);
+}
+
