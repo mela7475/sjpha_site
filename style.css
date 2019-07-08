@@ -218,7 +218,8 @@ input[type=submit] {
 
 .footlink:hover {
     text-decoration: none;
-    border-bottom: 1px solid #5b2127;
+    color: #5b2127 !important;
+    font-weight: bold;
 }
 
 .white-link-hov {
@@ -229,6 +230,7 @@ input[type=submit] {
 .white-link-hov:hover {
     color: #000;
     text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -397,4 +399,12 @@ header {
 .hover-pic:hover {
     transform: scale(1.25);
 }
+
+/* ----------------------------------------------- */
+/* Lists Spacing*/
+/* ----------------------------------------------- */
+.list-fix {
+    margin-left: 250px;
+}
+
 
