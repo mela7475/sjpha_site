@@ -32,7 +32,7 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -71,6 +71,12 @@ body {
 .carousel-row {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+.div-centered {
+    text-align: left;
+    margin: auto;
+    width: 319px;
 }
 
 
@@ -255,21 +261,7 @@ nav {
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media only screen and (max-width: 768px) {
-    nav {
-        background: rgb(91,33,39);
-        background: linear-gradient(120deg, rgba(91,33,39,1) 60%, rgba(248, 249, 250, 1) 60.5%);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    .nav-link {
-        color: white !important;
-        margin-left: 15px;
-    }
-  }
-
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 1024px) {
     nav {
         background: rgb(91,33,39);
         background: linear-gradient(120deg, rgba(91,33,39,1) 100%, rgba(248, 249, 250, 1) 0%);
