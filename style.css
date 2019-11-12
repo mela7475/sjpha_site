@@ -16,7 +16,7 @@
 }
 
 .btn-maroon:hover {
-    background-color: #381418;
+    background-color: #4b1b20;
 }
 /* ----------------------------------------------- */
 /* BASIC SETUP */
@@ -256,7 +256,7 @@ input[type=submit] {
 
 nav {
     background: rgb(91,33,39);
-    background: linear-gradient(120deg, rgba(91,33,39,1) 44%, rgba(248, 249, 250, 1) 44.5%);
+    background: linear-gradient(90deg, rgba(91,33,39,1) 33%, rgba(248, 249, 250, 1) 33%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
