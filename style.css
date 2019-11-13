@@ -208,7 +208,6 @@ input[type=submit] {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-
 /* ----- LINKS ----- */
 
 
@@ -306,13 +305,11 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
 }
 
 .header1 {
     background-size: cover;
     height: 50vh;
-    background-attachment: fixed;
     background-color: #262626;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG/house-red.jfif);
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG/house-red.jfif);
@@ -334,7 +331,6 @@ header {
 .bg-pic
  {
     background-size: cover;
-    background-attachment: fixed;
     background-color: #262626;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG/neighborhood.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG/neighborhood.jpg);
@@ -400,3 +396,33 @@ header {
 }
 
 
+/* ----------------------------------------------- */
+/* Media Queries*/
+/* ----------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        background: rgb(91,33,39);
+        background: linear-gradient(120deg, rgba(91,33,39,1) 100%, rgba(248, 249, 250, 1) 0%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .nav-link {
+        color: white !important;
+        margin-left: 15px;
+    }
+
+    .navbar-toggler {
+        color: white !important;
+    }
+
+    .navbar-brand {
+        font-size: 90%;
+        margin-left: 25px !important;
+    }
+
+    .jumbotron h1{
+        font-size: 125%;
+    }
+  }
