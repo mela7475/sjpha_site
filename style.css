@@ -255,12 +255,12 @@ input[type=submit] {
 
 nav {
     background: rgb(91,33,39);
-    background: linear-gradient(90deg, rgba(91,33,39,1) 33%, rgba(248, 249, 250, 1) 33%);
+    background: linear-gradient(90deg, rgba(91,33,39,1) 40%, rgba(248, 249, 250, 1) 40%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1025px) {
     nav {
         background: rgb(91,33,39);
         background: linear-gradient(120deg, rgba(91,33,39,1) 100%, rgba(248, 249, 250, 1) 0%);
@@ -372,8 +372,9 @@ header {
 /* ----------------------------------------------- */
 
 .carousel-img {
+    max-width: 100%;
     width: 100%;
-    max-height: 800px;
+    max-height: 600px;
 }
 
 /* ----------------------------------------------- */
