@@ -208,6 +208,7 @@ input[type=submit] {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
+
 /* ----- LINKS ----- */
 
 
@@ -401,12 +402,21 @@ header {
 /* Media Queries*/
 /* ----------------------------------------------- */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     nav {
         background: rgb(91,33,39);
         background: linear-gradient(120deg, rgba(91,33,39,1) 100%, rgba(248, 249, 250, 1) 0%);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    span a{
+        color: white !important;
+        margin-left: 10px;
+        margin-bottom: 15px;
+        border-color: white !important;
+        line-height: 1.2 !important;
+
     }
 
     .nav-link {
