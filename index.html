@@ -27,35 +27,66 @@
 <body>
     <header>
             <nav class="navbar navbar-expand-xl fixed-top p-1">
-                <a href="index.html" class="navbar-brand ml-5 text-white pt-4"><h3>St. James Housing Authority</h3></a>
+                <a href="index.html" class="navbar-brand ml-5 text-white pt-3"><h3>St. James Housing Authority</h3></a>
                 <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                 </button>
 
                 <div class="collapse navbar-collapse flex-column align-items-start ml-lg-2 ml-0" id="navbarsExampleDefault">
                     <span class="navbar-text ml-auto mr-5 py-0 px-lg-2">
-                        <a class="btn btn-outline-dark btn-sm pb-1" href="Pages/resources.html">Pay Rent</a>
+                        <a class="btn btn-outline-dark btn-sm pb-1" href="Pages/Residents.html">Emergency Contact</a>
+                        <a class="btn btn-outline-dark btn-sm pb-1" href="Pages/Residents.html">Pay Rent</a>
                         <a class="btn btn-outline-dark btn-sm pb-1" href="Pages/Contact.html">Contact</a>
                     </span>
                     <ul class="navbar-nav ml-auto mr-5">
                         <li class="nav-item">
-                            <a class="nav-link nav-link1 text-dark mr-1 pb-1 font-weight-bold" href="Pages/About.html">About</a>
+                            <a class="nav-link nav-link1 text-dark pb-1 font-weight-bold" href="Pages/About.html">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link1 text-dark mr-1 pb-1 font-weight-bold" href="Pages/Page1.html">Housing Programs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link1 text-dark mr-1 pb-1 font-weight-bold" href="Pages/Page2.html">Apply For Housing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link1 text-dark mr-1 pb-1 font-weight-bold" href="Pages/resources.html">Residents</a>
-                        </li>
+                        <div class="dropdown">
+                            <button class="btn btn-link nav-link nav-link1 text-dark pb-1 font-weight-bold dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Housing Programs
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a class="dropdown-item" href="Pages/Housing.html">Public Housing</a>
+                                <a class="dropdown-item" href="Pages/Housing.html">RAD Housing</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-link nav-link nav-link1 text-dark pb-1 font-weight-bold dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Applying
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a class="dropdown-item" href="Pages/Apply.html#apply">Resident Apply</a>
+                                <a class="dropdown-item" href="Pages/Apply.html#smoking-policy">Smoking Policy</a>
+                                <a class="dropdown-item" href="Pages/Apply.html#income-policy">Income Level Policy</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-link nav-link nav-link1 text-dark pb-1 font-weight-bold dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Residents
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a class="dropdown-item" href="Pages/Residents.html#public-notices">Public Notices</a>
+                                <a class="dropdown-item" href="Pages/Residents.html#pay-rent">Pay Rent</a>
+                                <a class="dropdown-item" href="Pages/Residents.html#resident-information">Resident information</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-link nav-link nav-link1 text-dark pb-1 font-weight-bold dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Other Information
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a class="dropdown-item" href="#HUD">HUD</a>
+                                <a class="dropdown-item" href="#hurricane-info">Hurricane Info</a>
+                                <a class="dropdown-item" href="#eviction">Eviction</a>
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </nav>
             <div class="container">
                 <div class="jumbotron jumbotron-fluid wow animated fadeIn text-center hero-text bg-transparent text-white pl-5 pr-5 pb-3">
-                    <h1 class="text-center text-white mb-4">Join Our Community Today!</h1>
+                    <h1 class="text-center text-white mb-4 display-4">Here To Serve</h1>
                     <hr class="underline1">
                     <h2 class="text-center text-white font-weight-normal">Providing Affordable Housing Options</h2>
                 </div>
@@ -371,9 +402,10 @@
                             <!-- Links -->
                             <ul class="list-unstyled text-dark">
                                 <li class="mb-2"><a href="Pages/About.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>About</a></li>
-                                <li class="mb-2"><a href="Pages/Page1.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Housing Programs</a></li>
-                                <li class="mb-2"><a href="Pages/Page2.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Apply For Housing</a></li>
-                                <li class="mb-2"><a href="Pages/resources.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Residents</a></li>
+                                <li class="mb-2"><a href="Pages/Housing.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Housing Programs</a></li>
+                                <li class="mb-2"><a href="Pages/Apply.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Apply For Housing</a></li>
+                                <li class="mb-2"><a href="Pages/Residents.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Residents</a></li>
+                                <li class="mb-2"><a href="Pages/Residents.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Other Information</a></li>
                                 <li class="mb-2"><a href="Pages/Contact.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Contact Us</a></li>
                             </ul>
                         </div>
@@ -390,10 +422,10 @@
                         </div>
                     </div>
             </div>
-                <!-- Copyright -->
-                <div class="footer-copyright text-center py-3">Copyright © 2019 by St. James Housing Authority. All rights reserved. Website by: <a href="https://www.verapro.net" class="font-weight-bold text-maroon">
-                    VeraPro LLC</a>
-                </div>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">Copyright © 2019 by St. James Housing Authority. All rights reserved. Website by: <a href="https://www.verapro.net" class="font-weight-bold text-maroon">
+                VeraPro LLC</a>
+            </div>
     </footer>
 
     <!-- Bootstrap core JavaScript

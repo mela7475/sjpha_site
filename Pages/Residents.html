@@ -8,7 +8,7 @@
     <meta name="author" content="Jordan Melancon">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Resources · SJPHA</title>
+    <title>Residents · SJPHA</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -39,28 +39,59 @@
 
                 <div class="collapse navbar-collapse flex-column align-items-start ml-lg-2 ml-0" id="navbarsExampleDefault">
                     <span class="navbar-text ml-auto mr-5 py-0 px-lg-2">
-                        <a class="btn btn-outline-dark btn-sm pb-1" href="resources.html">Pay Rent</a>
+                        <a class="btn btn-outline-dark btn-sm pb-1" href="Residents.html">Emergency Contact</a>
+                        <a class="btn btn-outline-dark btn-sm pb-1" href="Residents.html">Pay Rent</a>
                         <a class="btn btn-outline-dark btn-sm pb-1" href="Contact.html">Contact</a>
                     </span>
                     <ul class="navbar-nav ml-auto mr-5">
-                        <li class="nav-item">
-                            <a class="nav-link nav-link1 text-dark mr-1 pb-1 font-weight-bold" href="About.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link1 text-dark mr-1 pb-1 font-weight-bold" href="Page1.html">Housing Programs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link1 text-dark mr-1 pb-1 font-weight-bold" href="Page2.html">Apply For Housing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link1 text-dark mr-1 pb-1 font-weight-bold" href="resources.html">Residents</a>
-                        </li>
-                    </ul>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link1 text-dark pb-1 font-weight-bold" href="About.html">About</a>
+                            </li>
+                            <div class="dropdown">
+                                <button class="btn btn-link nav-link nav-link1 text-dark pb-1 font-weight-bold dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Housing Programs
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <a class="dropdown-item" href="Housing.html">Public Housing</a>
+                                    <a class="dropdown-item" href="Housing.html">RAD Housing</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-link nav-link nav-link1 text-dark pb-1 font-weight-bold dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Applying
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <a class="dropdown-item" href="Apply.html#apply">Resident Apply</a>
+                                    <a class="dropdown-item" href="Apply.html#smoking-policy">Smoking Policy</a>
+                                    <a class="dropdown-item" href="Apply.html#income-policy">Income Level Policy</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-link nav-link nav-link1 text-dark pb-1 font-weight-bold dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Residents
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <a class="dropdown-item" href="Residents.html#public-notices">Public Notices</a>
+                                    <a class="dropdown-item" href="Residents.html#pay-rent">Pay Rent</a>
+                                    <a class="dropdown-item" href="Residents.html#resident-information">Resident information</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-link nav-link nav-link1 text-dark pb-1 font-weight-bold dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Other Information
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <a class="dropdown-item" href="#HUD">HUD</a>
+                                    <a class="dropdown-item" href="#hurricane-info">Hurricane Info</a>
+                                    <a class="dropdown-item" href="#eviction">Eviction</a>
+                                </div>
+                            </div>
+                        </ul>
                 </div>
         </nav>
     </div>
 
-    <section class="bg-light">
+    <section class="bg-light" id="public-notices">
         <div class="panel">
             <h2 class="text-center text-black text-line-maroon">Public Notices</h2>
             <div class = "row justify-content-center">
@@ -98,7 +129,7 @@
         </div>
     </section>
 
-    <section class="bg-maroon text-white py-4">
+    <section class="bg-maroon text-white py-4" id="pay-rent">
         <div class="row1">
             <h1 class="text-center non-cap">Resident Pay Rent</h1>
         </div>
@@ -112,9 +143,9 @@
         </div>
     </section>
 
-    <section class="bg-light">
+    <section class="bg-light" id="resident-information">
         <div class="row1">
-            <h2 class="text-center text-black text-line-maroon">Resident Resources and Information</h2>
+            <h2 class="text-center text-black text-line-maroon">Resident Information</h2>
             <p class="lead text-center">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ratione obcaecati sequi modi, earum nostrum deleniti quas culpa. Voluptatibus hic.
             </p>
@@ -139,9 +170,9 @@
                       <!-- Links -->
                       <ul class="list-unstyled text-dark">
                           <li class="mb-2"><a href="About.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>About</a></li>
-                          <li class="mb-2"><a href="Page1.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Housing Programs</a></li>
-                          <li class="mb-2"><a href="Page2.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Apply For Housing</a></li>
-                          <li class="mb-2"><a href="resources.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Residents</a></li>
+                          <li class="mb-2"><a href="Housing.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Housing Programs</a></li>
+                          <li class="mb-2"><a href="Apply.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Apply For Housing</a></li>
+                          <li class="mb-2"><a href="Residents.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Residents</a></li>
                           <li class="mb-2"><a href="Contact.html" class="text-dark footlink"><i class="fas fa-chevron-right mr-2 text-dark"></i>Contact Us</a></li>
                       </ul>
                   </div>
