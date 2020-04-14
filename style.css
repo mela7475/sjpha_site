@@ -281,28 +281,6 @@ input[type=submit] {
     padding-top: 5px;
 }
 
-
-  @media only screen and (max-width: 1025px) {
-
-    .nav-link {
-        color: white !important;
-        margin-left: 15px;
-    }
-
-    .navbar-toggler {
-        color: white !important;
-    }
-
-    .navbar-brand {
-        font-size: 90%;
-        margin-left: 25px !important;
-    }
-
-    .jumbotron h1{
-        font-size: 3.5rem;
-    }
-  }
-
 /* ----------------------------------------------- */
 /* Footer*/
 /* ----------------------------------------------- */
@@ -352,28 +330,6 @@ header {
     background: rgba(255, 0, 0, 0.5) !important;
     
   }
-
-  @media only screen and (max-height: 1080px) {
-    .marquee-text {
-        top: 22.5%;
-        z-index: 1;
-      }
-  }
-
-  @media only screen and (max-width: 426px) {
-    .marquee-text {
-        top: 18%;  
-      }
-  }
-
-  @media only screen and (max-width: 426px) {
-    .marquee-text {
-        top: 22.5%;
-        z-index: 1;
-      }
-  }
-
-
 
 .underline1 {
     border-bottom: 2px solid #5c83cd;
@@ -452,35 +408,95 @@ header {
 /* Media Queries*/
 /* ----------------------------------------------- */
 
-@media only screen and (max-width: 1200px) {
-    nav {
-        background: rgb(255, 255, 255);
+@media only screen and (max-width: 321px) {
+    .nav-link1 {
+        margin: .2rem .5rem .2rem .9rem !important;
+        font-size: 80% !important;
+        padding: 0px !important;
     }
 
-    span a{
-        color: white !important;
-        margin-left: 10px;
-        margin-bottom: 15px;
-        border-color: white !important;
-        line-height: 1.2 !important;
-
+    .navbar-text a {
+        margin-bottom: .2rem !important;
+        margin-left: .9rem !important;
+        font-size: 70% !important;
     }
 
-    .nav-link {
-        color: white !important;
-        margin-left: 15px;
+    .navbar-nav .dropdown-item {
+        font-size: 70% !important;
     }
 
-    .navbar-toggler {
-        color: white !important;
+    .logo-size {
+        max-width: 100%;
+        height: auto;
+        width: 48%;
+        padding-left: 30px;
     }
 
     .navbar-brand {
-        font-size: 90%;
-        margin-left: 25px !important;
+        font-size: .95rem;
+        display: none;
     }
 
-    .jumbotron h1{
-        font-size: 2.5rem;
+    .marquee-text {
+        top: 34% !important;
     }
-  }
+
+    .hero-text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    header {
+        height: 100vh !important;
+    }
+
+    .nav-link1 {
+        margin: .2rem .5rem .2rem .9rem !important;
+        font-size: .9rem !important;
+        padding: 0px !important;
+    }
+
+    .navbar-nav .dropdown-item {
+        font-size: 70% !important;
+    }
+
+    .navbar-text a {
+        margin-bottom: .2rem !important;
+        margin-left: .9rem !important;
+        font-size: .9rem !important;
+    }
+
+    .logo-size {
+        max-width: 100%;
+        height: auto;
+        width: 50%;
+        padding-left: 40px;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+        margin-left: 1.5rem !important
+    }
+
+    .marquee-text {
+        top: 39%;
+    }
+
+    .hero-text {
+        top: 72%;
+    }
+
+    .hero-text h1 {
+        font-size: 175% !important;
+    }
+
+    .hero-text h2 {
+        font-size: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+}
