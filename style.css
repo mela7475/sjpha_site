@@ -1,10 +1,10 @@
 /* green - #009b97 */
 .bg-maroon {
-    background-color: #5b2127;
+    background-color: #5c83cd;
 }
 
 .text-maroon {
-    color: #5b2127;
+    color: #5c83cd;
 }
 
 .text-black {
@@ -12,12 +12,39 @@
 }
 
 .btn-maroon {
-    background-color: #5b2127;
+    background-color: #5c83cd;
 }
 
 .btn-maroon:hover {
-    background-color: #4b1b20;
+    background-color: #3c6bc3;
 }
+
+.btn-primary {
+    background-color: #5c83cd !important;
+}
+
+.btn-primary:hover {
+    background-color: #3c6bc3 !important;
+}
+
+.btn-outline-primary {
+    color: #5c83cd !important;
+    border-color: #5c83cd !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3c6bc3;
+    color: white !important;
+    border-color: #3c6bc3 !important;
+}
+
+.nav-border {
+    border-bottom: 3px solid #5c83cd !important;
+}
+
+
+
+
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
@@ -133,7 +160,7 @@ h5 {
 .text-line-maroon:after {
     display: block;
     height: 2px;
-    background-color: #5b2127;
+    background-color: #5c83cd;
     content: " ";
     width: 200px;
     margin: 0 auto;
@@ -154,7 +181,7 @@ h5 {
 .dot {
     height: 15px;
     width: 15px;
-    background-color: #5b2127;
+    background-color: #5c83cd;
     border-radius: 50%;
     display: inline-block;
   }
@@ -186,12 +213,12 @@ h5 {
     margin: 0 auto;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    color: #5b2127;
+    color: #5c83cd;
 }
 
 
 .blockH h3:hover {
-    color: #5b2127;
+    color: #5c83cd;
 }
 
 
@@ -218,18 +245,18 @@ input[type=submit] {
 }
 
 .link-hov:hover {
-    color: #5b2127;
+    color: #5c83cd;
     text-decoration: none;
 }
 
 .footlink:hover {
     text-decoration: none;
-    color: #5b2127 !important;
+    color: #5c83cd !important;
     font-weight: bold;
 }
 
 .white-link-hov {
-    color: #5b2127;
+    color: #5c83cd;
     text-decoration: none;
 }
 
@@ -249,25 +276,13 @@ input[type=submit] {
 }
 
 .nav-link1:hover {
-    color: #5b2127;
-    border-bottom: 3px solid #5b2127;
+    color: #5c83cd;
+    border-bottom: 3px solid #5c83cd;
     padding-top: 5px;
 }
 
-nav {
-    background: rgb(91,33,39);
-    background: linear-gradient(90deg, rgba(91,33,39,1) 40%, rgba(248, 249, 250, 1) 40%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
   @media only screen and (max-width: 1025px) {
-    nav {
-        background: rgb(91,33,39);
-        background: linear-gradient(120deg, rgba(91,33,39,1) 100%, rgba(248, 249, 250, 1) 0%);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
 
     .nav-link {
         color: white !important;
@@ -302,10 +317,11 @@ footer {
 /* ----------------------------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),url(IMG/sunset-houses.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)),url(IMG/neighborhood.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 70vh;
 }
 
 .header1 {
@@ -319,14 +335,48 @@ header {
 
 .hero-text {
     position: absolute;
-    top: 48%;
+    top: 43.7%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; 
+    color: white;
+    background: rgba(0, 0, 0, 0.5) !important;
+    
   }
 
+  .marquee-text {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(255, 0, 0, 0.5) !important;
+    
+  }
+
+  @media only screen and (max-height: 1080px) {
+    .marquee-text {
+        top: 22.5%;
+        z-index: 1;
+      }
+  }
+
+  @media only screen and (max-width: 426px) {
+    .marquee-text {
+        top: 18%;  
+      }
+  }
+
+  @media only screen and (max-width: 426px) {
+    .marquee-text {
+        top: 22.5%;
+        z-index: 1;
+      }
+  }
+
+
+
 .underline1 {
-    border-bottom: 2px solid #5b2127;
+    border-bottom: 2px solid #5c83cd;
 }
 
 .bg-pic
@@ -353,7 +403,7 @@ header {
 
 .services {
     padding-bottom: 10px;
-    border-bottom: 2px solid #5b2127;
+    border-bottom: 2px solid #5c83cd;
 }
 
 .service-box {
@@ -404,10 +454,7 @@ header {
 
 @media only screen and (max-width: 1200px) {
     nav {
-        background: rgb(91,33,39);
-        background: linear-gradient(120deg, rgba(91,33,39,1) 100%, rgba(248, 249, 250, 1) 0%);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: rgb(255, 255, 255);
     }
 
     span a{
