@@ -497,6 +497,48 @@ header {
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 769px) {
+    .logo-size {
+        max-width: 100%;
+        height: auto;
+        width: 50%;
+        padding-left: 40px;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+        margin-left: 1.5rem !important
+    }
+
+    .marquee-text {
+        top: 15%;
+    }
+
+    .hero-text {
+        top: 45%;
+    }
+
+    .hero-text h1 {
+        font-size: 275% !important;
+    }
+
+    .hero-text h2 {
+        font-size: 150% !important;
+    }
+}
+
+@media only screen and (max-height: 1024px) {
+    .marquee-text {
+        top: 23.5%;
+    }
+
+    .hero-text {
+        top: 54%;
+    }
+
+    header{
+        height: 80vh;
+    }
+
 
 }
