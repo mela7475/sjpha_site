@@ -42,9 +42,6 @@
     border-bottom: 3px solid #5c83cd !important;
 }
 
-
-
-
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
@@ -59,7 +56,7 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -106,7 +103,6 @@ body {
     width: 319px;
 }
 
-
 section {
     padding: 80px 0;
 }
@@ -117,6 +113,12 @@ section {
 
 .non-cap {
     text-transform: none;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
 }
 
 /* ----- HEADINGS ----- */
@@ -184,15 +186,15 @@ h5 {
     background-color: #5c83cd;
     border-radius: 50%;
     display: inline-block;
-  }
+}
 
-  .dotdark {
+.dotdark {
     height: 15px;
     width: 15px;
     background-color: #373c48;
     border-radius: 50%;
     display: inline-block;
-  }
+}
 
 /* ----- PARAGRAPHS ----- */
 .long-copy {
@@ -238,7 +240,6 @@ input[type=submit] {
 
 /* ----- LINKS ----- */
 
-
 .link-hov {
     color: #fff;
     text-decoration: none;
@@ -270,6 +271,11 @@ input[type=submit] {
 /* ----------------------------------------------- */
 /* Navbar*/
 /* ----------------------------------------------- */
+
+.navbar-brand {
+    font-size: 1.1rem;
+    margin-left: 1.5rem !important
+}
 
 .nav-link1 {
     border-bottom: 0px;
@@ -319,9 +325,9 @@ header {
     color: white;
     background: rgba(0, 0, 0, 0.5) !important;
     
-  }
+}
 
-  .marquee-text {
+.marquee-text {
     position: absolute;
     top: 13%;
     left: 50%;
@@ -329,14 +335,13 @@ header {
     color: white;
     background: rgba(255, 0, 0, 0.5) !important;
     
-  }
+}
 
 .underline1 {
     border-bottom: 2px solid #5c83cd;
 }
 
-.bg-pic
- {
+.bg-pic {
     background-size: cover;
     background-color: #262626;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG/neighborhood.jpg);
@@ -433,7 +438,6 @@ header {
     }
 
     .navbar-brand {
-        font-size: .95rem;
         display: none;
     }
 
